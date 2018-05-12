@@ -1,0 +1,162 @@
+/*<!--
+    Assignment:Week 9 A3
+    Author:Yulia Kovtun
+    Date:5/4/18
+    Filename: webd.css
+    Description: Stylesheet for WEBD162 Midterm assignment.
+-->
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #ECE4B7;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: darkorchid;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+p {
+
+    font-family: 'Stylish', sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff5dc;
+}
+
+header {
+    text-align: center;
+    background-color: #FFE4E1;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 19.5em;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: darksalmon;
+    padding: 10px;
+    font-size: smaller;
+    letter-spacing: .3em;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: beige;
+}
+
+nav ul a:visited {
+    color: beige;
+}
+
+nav ul li:hover {
+    background-color: coral;
+}
+
+nav ul a:hover {
+    background-color: coral;
+}
+
+article {
+    padding: 0 10px;
+}
+
+article.floatleft {
+    width: 600px;
+    margin-right: 20px;
+
+}
+
+aside {
+    padding: 0 10px;
+    background-color: lemonchiffon;
+    width: 340px;
+    margin-left: 0;
+}
+
+aside h2 {
+    color: darkorchid;
+    text-align: center;
+}
+
+aside p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+figure {
+    text-align: center;
+    font-style: oblique;
+    font-size: smaller;
+}
+figure.project-fig img {
+    border: 5px solid lightgray;
+    
+}
+figure.project-fig-color{
+    margin-left: auto;
+}
+ol {
+
+    font-family: 'Stylish', sans-serif;
+}
+ol li {
+     margin-bottom: .6em;
+}
+footer {
+    font-family: 'Dancing Script', cursive;
+    font-size: smaller;
+    background-color: #EBD1A2;
+    text-align: center;
+    padding: 5px;
+}
+p.Question {
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.floatleft {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
