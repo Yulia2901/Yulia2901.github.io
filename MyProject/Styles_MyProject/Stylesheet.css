@@ -1,0 +1,179 @@
+/*
+<!--
+    Assignment: My Project
+    Author: Yulia Kovtun
+    Date: 5/4/18
+    Filename: Stylesheet.css
+    Description: Stylesheet for website "Childhood".
+    Comments:
+-->
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff5dc;
+}
+
+header {
+    text-align: left;
+    background-color: #27e5e6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: red;
+}
+
+h1 {
+    font-size: 220%;
+    font-family: fantasy;
+    text-align: center;
+    color: darkblue;
+
+}
+
+p.homepage {
+    position: absolute;
+    color: darkcyan;
+    width: 400px;
+    font-size: 200%;
+    font-family: fantasy;
+    text-align: center;
+}
+
+p.aboutUs1,
+p.aboutUs2,
+p.aboutUs3 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    line-height: 50px;
+
+    left: 32%;
+    width: 400px;
+    position: absolute;
+}
+
+p.aboutUs1 {
+    color: darkslategrey;
+    top: 570px;
+}
+
+p.aboutUs2 {
+    color: darkgreen;
+    top: 740px;
+}
+
+p.aboutUs3 {
+    color: darkslategrey;
+    top: 1000px;
+}
+
+p.events {
+    font-size: 125%;
+    font-family: cursive;
+    color: darkgreen;
+}
+
+ol {
+
+    font-family: 'Stylish', sans-serif;
+}
+
+ol li {
+    margin-bottom: .6em;
+}
+
+#galleryWrapper {
+    table-layout: auto;
+    width: 100%;
+}
+
+.galleryTable {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightblue;
+}
+
+aside p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+article.floatleft {
+    width: 600px;
+    margin-right: 20px;
+
+}
+
+figure {
+    text-align: right;
+    font-style: oblique;
+    font-size: smaller;
+}
+
+figure2 {
+    text-align: left;
+    font-style: oblique;
+    font-size: smaller;
+}
+
+figure.project-fig img {
+    border: 5px solid lightgray;
+
+}
+
+figure.project-fig-color {
+    margin-left: auto;
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    font-size: smaller;
+    background-color: lightcyan;
+    text-align: center;
+    padding: 5px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
